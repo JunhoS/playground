@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "taskName": "Chrome",
+            "label": "Chrome",
             "type": "process",
             "command": "chrome.exe",
             "windows": {
