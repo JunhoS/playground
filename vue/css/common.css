@@ -1,0 +1,106 @@
+@charset "utf-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html, body {height:100% }/* height:100% */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin:0; padding:0; border:0}
+dl, ul, ol, menu, li {list-style:none }
+address, caption, cite, code, dfn, em, var {font-style:normal; font-weight:normal }
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}/* HTML5 for older browsers */
+body {font-size:12px; line-height:1.2em; color:#333; font-family:AritaDotum, "Malgun Gothic", "맑은 고딕", "Nanum Gothic", "나눔 고딕", "돋움", dotum, sans-serif; letter-spacing:-0.3px; font-variant:normal; text-transform:none; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; -webkit-text-size-adjust:100%}
+table {table-layout:fixed; border-collapse:collapse; border-spacing:0}
+table td {color:#666}
+img {border:none; vertical-align:middle}
+fieldset, img {border:0 none }
+input, select, textarea, button {margin-left:0; padding:0; border:none; border-radius:0; outline:none; vertical-align:middle}
+input, select, textarea {font-size:12px; border:1px solid #ccc; color:#333}
+input:hover, select:hover, textarea:hover,input:focus, select:focus, textarea:focus {background-color:#f9f9f9}
+input, select, button, textarea {font-family:inherit}
+input::-ms-clear {display:none}
+textarea {box-sizing:border-box; width:calc(100% - 0px); color:#666; line-height:1.5}
+caption {display:none; text-indent:-9999px; font-size:0 }
+button {border:0; background-color:transparent; cursor:pointer }
+*:focus {outline:none}
+a {outline:none}/* selector-dummy:expression(this.hideFocus=true); */
+a, a:hover, a:visited, a:active {color:inherit; text-decoration:none}
+.readOnly, .disabled, input:disabled, textarea:disabled {color:#666; background:#f1f1f1; cursor:default}
+input.readOnly:hover, input.readOnly:focus, input.disabled:hover, input.disabled:focus, 
+textarea.readOnly:hover, textarea.readOnly:focus, textarea.disabled:hover, textarea.disabled:focus {background:#f1f1f1}
+input[type="radio"]:disabled, input[type="checkbox"]:disabled {opacity:0.5; filter:Alpha(opacity=50)}
+input.disabled + label, input:disabled + label {color:#999}
+input[placeholder] {color:#999}
+p {color:#666}
+.topmenu {
+    width: 100%;
+    height: 50px;
+    background:#bed4de;
+    position: absolute;
+    z-index: 10;
+}
+.topmenu .content_top_wrap {
+    width: 1220px;
+    margin:0 auto;
+}
+.topmenu h2 {display:inline-block; font-size:25px; line-height:1.2; color:#fff;}
+.topmenu .title_section {float:left; position:relative; z-index:9; padding-top:14px}
+.topmenu .pjTlt {display:inline-block; padding-left:12px; font-size:17px; line-height:1.2; font-weight:bold; color:#5da75c}
+.topmenu .location_section {float:right; padding-top:31px }
+.topmenu .location_section li {position:relative; float:left; padding-left:25px; padding-right:10px}
+.topmenu .location_section li a {font-size:12px; font-weight:lighter; color:#fff;}
+.topmenu .location_section li:last-child {padding-right:0}
+.topmenu .location_section .home a {display:block; width:16px; height:13px; padding:0; background:url('../img/ico_home_white.png') no-repeat left 0}
+.topmenu .location_section .home:after{display:none}
+.topmenu .location_section li:after {content:''; position:absolute; left:8px; top:5px; width:5px; height:9px; background:url('../img/right_arrow.png') no-repeat 0}
+.topmenu .location_section li:first-child{padding-left:0}
+
+.blind {position:absolute; overflow:hidden; clip:rect(0px, 0px, 0px, 0px); margin:-1px; width:1px; height:1px}
+.main {
+    height : 100%;
+    display: flex;
+}
+.leftmenu {
+    height : 100%;
+    width : 15%;
+    background-color: #a9a9a9;
+    display:inline-block;
+    margin-right: 10px;
+    position: relative;
+    top: 0px;
+}
+.leftmenu .menu_wrap {
+    position: relative;
+    margin: 55px 10px;    
+}
+.leftmenu .menu_wrap .menulist {
+    float: left;
+}
+.sub {
+    width: 85%;
+    float: right;
+    position: relative;
+}
+.sub .content {
+    margin-top: 50px;
+    padding-top: 10px;
+}
+.button { 
+    display: inline-block;
+    border: none;
+    padding: 12px 28px;
+    margin: 5px;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.button:hover { 
+    background-color: #008CBA; 
+    color: white;
+}
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

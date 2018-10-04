@@ -4,18 +4,51 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <link rel="stylesheet" type="text/css" href="css/common.css">
 </head>
 <body>
-    <div id="app">
-    {{ message }}
+    <div class="topmenu">
+        <div class="content_top_wrap">
+            <div id="menuTitleArea" class="title_section">
+                <h2>PlayGround</h2>
+                <div class="pjTlt">vue.js</div>
+            </div>
+            <div class="location_section">
+                <ul id="menuHierarchyArea">
+                    <li class="home">
+                        <a href="#"><span class="blind">home</span></a>
+                    </li>
+                    <li><a href="#">PlayGround</a></li>
+                    <li><a href="#">vue.js</a></li>
+                </ul>
+            </div>
+        </div>
     </div>
-<script>
-    var app = new Vue({
-            el: '#app',
-            data: {
-                message: '안녕하세요 Vue!'
-            }
-    })
-</script>
+    <div class="main">
+        <div class="leftmenu">
+            <div class="menu_wrap">
+                <div class="menulist">
+                    <button id="testajax" class="button">튜토리얼</button>
+                </div>
+            </div>
+        </div>
+        <div class="sub">
+            <div id="content" class="content">
+                <div class="topbtn">
+                    <a id="btnChange" class="button">메세지 변경</a>
+                    <a id="btnshow" class="button">{{ btnname }}</a>
+                </div>
+                <div class="detailview">
+                    <div id="app">
+                        {{ message }}
+                    </div>
+                    <div id="app-3">
+                        <p v-if="seen">이제 나를 볼 수 있어요</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/helloworld.js"></script>
 </body>
 </html>
