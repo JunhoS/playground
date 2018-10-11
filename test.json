@@ -1,302 +1,148 @@
 {
-    "ET_LIST": [{
-        "MATNR": "110012815",
-        "BRANDX": "",
-        "PERSINFO": "",
-        "PRDCDT": "",
-        "BISMT": "",
-        "MAKTX": "",
-        "MAKTXCN": "\t상품명(CN",
+    "IT_LIST": [{
+        "MATNR": "110643168",
+        "MAKTXCN": "상품명(EN)",
         "MAKTXEN": "상품명(EN)",
-        "PRDHA1": "",
-        "PRDHA2": "",
-        "PRDHA3": "",
-        "PRDHA4": "",
-        "VOLUM": "",
-        "HOSU": "홋수",
-        "RNETPR": "\t판매가",
-        "ZZRLINE": "라인",
-        "SKINCONC": "피부 고민",
-        "SKINTYPE_KR": "피부 타입(KR)",
-        "SKINTYPE_CN": "\t피부 타입(CN)",
-        "SKINTYPE_EN": "피부 타입(EN)",
-        "FUNC_KR": "",
-        "FUNC_CN": "기능성 화장품 여부(CN)",
-        "FUNC_EN": "기능성 화장품 여부(EN)",
-        "APPDATE": "허가 일자",
-        "SAFETEST": "",
-        "CEONAME": "",
-        "SEARCHKEYW": "키워드"
-    }, {
-        "MATNR": "110100007",
-        "BRANDX": "",
-        "PERSINFO": "",
-        "PRDCDT": "",
-        "BISMT": "",
-        "MAKTX": "",
-        "MAKTXCN": "\t상품명(CN",
-        "MAKTXEN": "상품명(EN)",
-        "PRDHA1": "",
-        "PRDHA2": "",
-        "PRDHA3": "",
-        "PRDHA4": "",
-        "VOLUM": "",
-        "HOSU": "홋수",
-        "RNETPR": "\t판매가",
-        "ZZRLINE": "라인",
-        "SKINCONC": "피부 고민",
-        "SKINTYPE_KR": "피부 타입(KR)",
-        "SKINTYPE_CN": "\t피부 타입(CN)",
-        "SKINTYPE_EN": "피부 타입(EN)",
-        "FUNC_KR": "",
-        "FUNC_CN": "기능성 화장품 여부(CN)",
-        "FUNC_EN": "기능성 화장품 여부(EN)",
-        "APPDATE": "허가 일자",
-        "SAFETEST": "",
-        "CEONAME": "",
-        "SEARCHKEYW": "키워드"
+        "RNETPR": "상품명(EN)",
+        "SKINCONC": "상품명(EN)",
+        "SKINTYPE_KR": "상품명(EN)",
+        "SKINTYPE_CN": "상품명(EN)",
+        "SKINTYPE_EN": "상품명(EN)",
+        "FUNC_CN": "상품명(EN)",
+        "FUNC_EN": "상품명(EN)",
+        "APPDATE": "231",
+        "SAFETEST": "321",
+        "CEONAME": "321",
+        "SEARCHKEYW": "32"
     }],
-    "ET_KR": [{
-        "MATNR": "110012815",
+    "IT_KR": [{
+        "MATNR": "110643168",
         "ITEMCD": "A",
-        "CONTENTS": "개봉 전과 개봉후 사용기간(KR)"
+        "CONTENTS": "상품명(EN)"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "B",
-        "CONTENTS": ""
+        "CONTENTS": "상품명(EN)32"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "C",
-        "CONTENTS": "주요성분(KR)"
+        "CONTENTS": "121"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "D",
-        "CONTENTS": "\t사용시 주의사항(KR)"
+        "CONTENTS": "32"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "E",
-        "CONTENTS": " "
+        "CONTENTS": "132"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "F",
-        "CONTENTS": " 제조국 (KR)"
+        "CONTENTS": "132"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "G",
-        "CONTENTS": "품질보증기준 (KR)"
+        "CONTENTS": "321"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "H",
-        "CONTENTS": ""
+        "CONTENTS": "32132"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "I",
-        "CONTENTS": "상품설명 (KR)"
+        "CONTENTS": "13"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "J",
-        "CONTENTS": "\t원포인트 소개 (KR)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "A",
-        "CONTENTS": "개봉 전과 개봉후 사용기간(KR)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "B",
-        "CONTENTS": ""
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "C",
-        "CONTENTS": "주요성분(KR)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "D",
-        "CONTENTS": "\t사용시 주의사항(KR)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "E",
-        "CONTENTS": " "
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "F",
-        "CONTENTS": " 제조국 (KR)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "G",
-        "CONTENTS": "품질보증기준 (KR)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "H",
-        "CONTENTS": ""
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "I",
-        "CONTENTS": "상품설명 (KR)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "J",
-        "CONTENTS": "\t원포인트 소개 (KR)"
+        "CONTENTS": "321"
     }],
-    "ET_EN": [{
-        "MATNR": "110012815",
+    "IT_EN": [{
+        "MATNR": "110643168",
         "ITEMCD": "A",
-        "CONTENTS": "개봉 전과 개봉후 사용기간(EN)"
+        "CONTENTS": "상품명(EN)21"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "B",
-        "CONTENTS": ""
+        "CONTENTS": "상품명(EN)2132"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "C",
-        "CONTENTS": "\t주요성분(EN)"
+        "CONTENTS": "321"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "D",
-        "CONTENTS": "\t사용시 주의사항(EN)"
+        "CONTENTS": "132"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "E",
-        "CONTENTS": " "
+        "CONTENTS": "132"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "F",
-        "CONTENTS": "제조국 (EN)"
+        "CONTENTS": "21"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "G",
-        "CONTENTS": "품질보증기준 (EN)"
+        "CONTENTS": "321"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "H",
-        "CONTENTS": ""
+        "CONTENTS": "3132"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "I",
-        "CONTENTS": "상품설명 (EN)"
+        "CONTENTS": "1"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "J",
-        "CONTENTS": "\t원포인트 소개 (EN"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "A",
-        "CONTENTS": "개봉 전과 개봉후 사용기간(EN)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "B",
-        "CONTENTS": ""
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "C",
-        "CONTENTS": "\t주요성분(EN)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "D",
-        "CONTENTS": "\t사용시 주의사항(EN)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "E",
-        "CONTENTS": " "
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "F",
-        "CONTENTS": "제조국 (EN)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "G",
-        "CONTENTS": "품질보증기준 (EN)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "H",
-        "CONTENTS": ""
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "I",
-        "CONTENTS": "상품설명 (EN)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "J",
-        "CONTENTS": "\t원포인트 소개 (EN"
+        "CONTENTS": "321"
     }],
-    "ET_CN": [{
-        "MATNR": "110012815",
+    "IT_CN": [{
+        "MATNR": "110643168",
         "ITEMCD": "A",
-        "CONTENTS": "\t개봉 전과 개봉 후 사용기간(CN)\t"
+        "CONTENTS": "12"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "B",
-        "CONTENTS": "사용방법(CN)"
+        "CONTENTS": "13"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "C",
-        "CONTENTS": ""
+        "CONTENTS": "31321"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "D",
-        "CONTENTS": ""
+        "CONTENTS": "132"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "E",
-        "CONTENTS": " 제조자 및 제조판매업자 (CN)"
+        "CONTENTS": "123"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "F",
-        "CONTENTS": ""
+        "CONTENTS": "13"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "G",
-        "CONTENTS": ""
+        "CONTENTS": "321"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "H",
-        "CONTENTS": "A/S책임자와전화번호 (CN)"
+        "CONTENTS": "1"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "I",
-        "CONTENTS": "\t상품설명 (CN)"
+        "CONTENTS": "2123"
     }, {
-        "MATNR": "110012815",
+        "MATNR": "110643168",
         "ITEMCD": "J",
-        "CONTENTS": "원포인트 소개 (CN)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "A",
-        "CONTENTS": "\t개봉 전과 개봉 후 사용기간(CN)\t"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "B",
-        "CONTENTS": "사용방법(CN)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "C",
-        "CONTENTS": ""
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "D",
-        "CONTENTS": ""
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "E",
-        "CONTENTS": " 제조자 및 제조판매업자 (CN)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "F",
-        "CONTENTS": ""
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "G",
-        "CONTENTS": ""
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "H",
-        "CONTENTS": "A/S책임자와전화번호 (CN)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "I",
-        "CONTENTS": "\t상품설명 (CN)"
-    }, {
-        "MATNR": "110100007",
-        "ITEMCD": "J",
-        "CONTENTS": "원포인트 소개 (CN)"
-    }]
+        "CONTENTS": "321"
+    }],
+    "I_DEVNO": "201811064001",
+    "I_MODE": "C",
+    "NPI_D": "O",
+    "NPI_DRT": 43,
+    "NPI_DRV": 43,
+    "LASTSAVE": "NPI_D",
+    "LASTSAVEX": "신상품 출시정보"
 }
