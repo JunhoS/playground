@@ -3,4 +3,4 @@
 
 Visual Studio Code 에서 github 를 사용하기 위한 저장소.
 
-관련언어 Java, javascript
+관련언어 javascript
