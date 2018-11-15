@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "프로그램 시작",
-            "program": "${workspaceFolder}/nodejs/backend.js"
+            "program": "${workspaceFolder}/nodejs/server.js"
         },
         {
             "type": "node",
