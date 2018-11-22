@@ -16,6 +16,7 @@ module.exports = function(passport) {
         passReqToCallback : true 
     },
     function(req, email, password, done) {
+        console.log('signup>>');
         User.findOne({ 'email' : email }, function(err, user) {
             if (err) return done(err);
             if (user) {
@@ -37,9 +38,11 @@ module.exports = function(passport) {
     passport.use('login', new LocalStrategy({
         usernameField : 'email',
         passwordField : 'password',
+        session: true, // 세션에 저장 여부
         passReqToCallback : true 
     },
     function(req, email, password, done) { 
+        console.log('login>>');
         User.findOne({ 'email' : email }, function(err, user) {
             if (err)
                 return done(err);

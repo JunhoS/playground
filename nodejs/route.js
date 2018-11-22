@@ -7,15 +7,19 @@ router.post('/signup', passport.authenticate('signup', {
     successRedirect : '/profile', 
     failureRedirect : '/', //가입 실패시 redirect할 url주소
     failureFlash : false 
-}))
+}), (req, res) => {
+    console.log('signup>>post');
+  })
 router.get('/', function(req, res, next) {
     res.sendFile(path.join(__dirname, 'views', 'login.html'));
 });
 router.post('/login', passport.authenticate('login', {
-    successRedirect : '/profile', 
+    //successRedirect : '/profile', 
     failureRedirect : '/', //로그인 실패시 redirect할 url주소
     failureFlash : false 
-}))
+}), (req, res) => {
+    console.log('login>>post');
+  })
 
 function isLoggedIn(req, res, next) {
     if (req.isAuthenticated()){
@@ -27,7 +31,7 @@ function isLoggedIn(req, res, next) {
 
 router.get('/profile', isLoggedIn, function(req, res, next) {
     console.log('profile>>');
-    res.render('index', { title: 'You are logged in.' });
+    //res.render('index', { title: 'You are logged in.' });
 });
 
 module.exports = router;
